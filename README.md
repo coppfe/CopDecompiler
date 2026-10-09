@@ -15,7 +15,7 @@ So, together with Gemini, I wrote this project in 1 month. The architecture is h
 ## The Pipeline
 
 ```
-LIR ──► LIRTranslator / Step-IR ──► SSABuilder ──► SSA IR ──► Optimizers ──► AST Bridge ──► AST ──► Pretty-Printer
+LIR ──► SSABuilder ──► SSA IR ──► Optimizers ──► AST Bridge ──► AST ──► Pretty-Printer
 ```
 
 ---
